@@ -9,21 +9,21 @@
 						"referenceName": "3F015",
 						"type": "DatasetReference"
 					},
-					"name": "source1"
+					"name": "source3F015"
 				},
 				{
 					"dataset": {
 						"referenceName": "SE_SAMPLE_DATA",
 						"type": "DatasetReference"
 					},
-					"name": "source2"
+					"name": "sourceSeSampleDATA"
 				},
 				{
 					"dataset": {
 						"referenceName": "DeallerCurrency",
 						"type": "DatasetReference"
 					},
-					"name": "source3"
+					"name": "sourceDeallerCurrency"
 				}
 			],
 			"sinks": [],
@@ -34,19 +34,19 @@
 				"     ),",
 				"     allowSchemaDrift: true,",
 				"     validateSchema: false,",
-				"     ignoreNoFilesFound: false) ~> source1",
+				"     ignoreNoFilesFound: false) ~> source3F015",
 				"source(output(",
 				"          Column_1 as string",
 				"     ),",
 				"     allowSchemaDrift: true,",
 				"     validateSchema: false,",
-				"     ignoreNoFilesFound: false) ~> source2",
+				"     ignoreNoFilesFound: false) ~> sourceSeSampleDATA",
 				"source(output(",
 				"          {PCUR|Currency Rate} as string",
 				"     ),",
 				"     allowSchemaDrift: true,",
 				"     validateSchema: false,",
-				"     ignoreNoFilesFound: false) ~> source3"
+				"     ignoreNoFilesFound: false) ~> sourceDeallerCurrency"
 			]
 		}
 	}
