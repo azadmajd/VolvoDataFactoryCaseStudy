@@ -18,6 +18,667 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": []
+		"schema": [
+			{
+				"name": "0",
+				"type": "String"
+			},
+			{
+				"name": "Library",
+				"type": "String"
+			},
+			{
+				"name": "PDLNO",
+				"type": "String"
+			},
+			{
+				"name": "PNAME",
+				"type": "String"
+			},
+			{
+				"name": "PADR1",
+				"type": "String"
+			},
+			{
+				"name": "PADR2",
+				"type": "String"
+			},
+			{
+				"name": "PADR3",
+				"type": "String"
+			},
+			{
+				"name": "PPCDE",
+				"type": "String"
+			},
+			{
+				"name": "PTELE",
+				"type": "String"
+			},
+			{
+				"name": "PATT",
+				"type": "String"
+			},
+			{
+				"name": "PLANG",
+				"type": "String"
+			},
+			{
+				"name": "PCDRG",
+				"type": "String"
+			},
+			{
+				"name": "PCDDT",
+				"type": "String"
+			},
+			{
+				"name": "PFLRP",
+				"type": "String"
+			},
+			{
+				"name": "PCDOM",
+				"type": "String"
+			},
+			{
+				"name": "PDLNM",
+				"type": "String"
+			},
+			{
+				"name": "PCDMB",
+				"type": "String"
+			},
+			{
+				"name": "PFLMC",
+				"type": "String"
+			},
+			{
+				"name": "PCDPG",
+				"type": "String"
+			},
+			{
+				"name": "PVECA",
+				"type": "String"
+			},
+			{
+				"name": "PVEPE",
+				"type": "String"
+			},
+			{
+				"name": "PVEFW",
+				"type": "String"
+			},
+			{
+				"name": "PVEHF",
+				"type": "String"
+			},
+			{
+				"name": "PVEFS",
+				"type": "String"
+			},
+			{
+				"name": "PVEHS",
+				"type": "String"
+			},
+			{
+				"name": "PVEBC",
+				"type": "String"
+			},
+			{
+				"name": "PVENP",
+				"type": "String"
+			},
+			{
+				"name": "PLLOV",
+				"type": "String"
+			},
+			{
+				"name": "PHLOV",
+				"type": "String"
+			},
+			{
+				"name": "PLLCV",
+				"type": "String"
+			},
+			{
+				"name": "PLLCL",
+				"type": "String"
+			},
+			{
+				"name": "PHLOD",
+				"type": "String"
+			},
+			{
+				"name": "PLTIA",
+				"type": "String"
+			},
+			{
+				"name": "PHRRS",
+				"type": "String"
+			},
+			{
+				"name": "PLRRS",
+				"type": "String"
+			},
+			{
+				"name": "PHRRO",
+				"type": "String"
+			},
+			{
+				"name": "PLRRO",
+				"type": "String"
+			},
+			{
+				"name": "PCORP",
+				"type": "String"
+			},
+			{
+				"name": "POLWD",
+				"type": "String"
+			},
+			{
+				"name": "PPML1",
+				"type": "String"
+			},
+			{
+				"name": "PPML2",
+				"type": "String"
+			},
+			{
+				"name": "PLITS",
+				"type": "String"
+			},
+			{
+				"name": "PMDMO",
+				"type": "String"
+			},
+			{
+				"name": "PFN40",
+				"type": "String"
+			},
+			{
+				"name": "PFN41",
+				"type": "String"
+			},
+			{
+				"name": "PFN42",
+				"type": "String"
+			},
+			{
+				"name": "PFN50",
+				"type": "String"
+			},
+			{
+				"name": "PFN70",
+				"type": "String"
+			},
+			{
+				"name": "PFN71",
+				"type": "String"
+			},
+			{
+				"name": "PFN80",
+				"type": "String"
+			},
+			{
+				"name": "PFN81",
+				"type": "String"
+			},
+			{
+				"name": "PFN82",
+				"type": "String"
+			},
+			{
+				"name": "PFN90",
+				"type": "String"
+			},
+			{
+				"name": "PFL10",
+				"type": "String"
+			},
+			{
+				"name": "PFL20",
+				"type": "String"
+			},
+			{
+				"name": "PFL21",
+				"type": "String"
+			},
+			{
+				"name": "PFLST",
+				"type": "String"
+			},
+			{
+				"name": "PFLIMP",
+				"type": "String"
+			},
+			{
+				"name": "PNCER",
+				"type": "String"
+			},
+			{
+				"name": "PNCCT",
+				"type": "String"
+			},
+			{
+				"name": "PNCPU",
+				"type": "String"
+			},
+			{
+				"name": "PNCMO",
+				"type": "String"
+			},
+			{
+				"name": "PNRP1",
+				"type": "String"
+			},
+			{
+				"name": "PNRP2",
+				"type": "String"
+			},
+			{
+				"name": "PNRP3",
+				"type": "String"
+			},
+			{
+				"name": "PCO1",
+				"type": "String"
+			},
+			{
+				"name": "PCO2",
+				"type": "String"
+			},
+			{
+				"name": "PCO3",
+				"type": "String"
+			},
+			{
+				"name": "PCDDS",
+				"type": "String"
+			},
+			{
+				"name": "PCREF",
+				"type": "String"
+			},
+			{
+				"name": "PCREP",
+				"type": "String"
+			},
+			{
+				"name": "PPP1",
+				"type": "String"
+			},
+			{
+				"name": "PEP1",
+				"type": "String"
+			},
+			{
+				"name": "PPP2",
+				"type": "String"
+			},
+			{
+				"name": "PEP2",
+				"type": "String"
+			},
+			{
+				"name": "PPP3",
+				"type": "String"
+			},
+			{
+				"name": "PEP3",
+				"type": "String"
+			},
+			{
+				"name": "PPP4",
+				"type": "String"
+			},
+			{
+				"name": "PEP4",
+				"type": "String"
+			},
+			{
+				"name": "PPP5",
+				"type": "String"
+			},
+			{
+				"name": "PEP5",
+				"type": "String"
+			},
+			{
+				"name": "PPP6",
+				"type": "String"
+			},
+			{
+				"name": "PEP6",
+				"type": "String"
+			},
+			{
+				"name": "PPP7",
+				"type": "String"
+			},
+			{
+				"name": "PEP7",
+				"type": "String"
+			},
+			{
+				"name": "PPP8",
+				"type": "String"
+			},
+			{
+				"name": "PEP8",
+				"type": "String"
+			},
+			{
+				"name": "PPP9",
+				"type": "String"
+			},
+			{
+				"name": "PEP9",
+				"type": "String"
+			},
+			{
+				"name": "PPP10",
+				"type": "String"
+			},
+			{
+				"name": "PEP10",
+				"type": "String"
+			},
+			{
+				"name": "PPP11",
+				"type": "String"
+			},
+			{
+				"name": "PEP11",
+				"type": "String"
+			},
+			{
+				"name": "PPP12",
+				"type": "String"
+			},
+			{
+				"name": "PEP12",
+				"type": "String"
+			},
+			{
+				"name": "PPP13",
+				"type": "String"
+			},
+			{
+				"name": "PEP13",
+				"type": "String"
+			},
+			{
+				"name": "PDTLP",
+				"type": "String"
+			},
+			{
+				"name": "PCDKP",
+				"type": "String"
+			},
+			{
+				"name": "PDTLU",
+				"type": "String"
+			},
+			{
+				"name": "PDTLC",
+				"type": "String"
+			},
+			{
+				"name": "PCMCD",
+				"type": "String"
+			},
+			{
+				"name": "PDTPR",
+				"type": "String"
+			},
+			{
+				"name": "PFLNF",
+				"type": "String"
+			},
+			{
+				"name": "PSEAIR",
+				"type": "String"
+			},
+			{
+				"name": "PLPA",
+				"type": "String"
+			},
+			{
+				"name": "PNPF",
+				"type": "String"
+			},
+			{
+				"name": "PRFI",
+				"type": "String"
+			},
+			{
+				"name": "PCDPU",
+				"type": "String"
+			},
+			{
+				"name": "PFLSD",
+				"type": "String"
+			},
+			{
+				"name": "PSERD",
+				"type": "String"
+			},
+			{
+				"name": "PSERD1",
+				"type": "String"
+			},
+			{
+				"name": "PSERD2",
+				"type": "String"
+			},
+			{
+				"name": "PSERD3",
+				"type": "String"
+			},
+			{
+				"name": "PSERD4",
+				"type": "String"
+			},
+			{
+				"name": "PSERD5",
+				"type": "String"
+			},
+			{
+				"name": "PSERD6",
+				"type": "String"
+			},
+			{
+				"name": "PSERD7",
+				"type": "String"
+			},
+			{
+				"name": "PSERD8",
+				"type": "String"
+			},
+			{
+				"name": "PSERD9",
+				"type": "String"
+			},
+			{
+				"name": "PEURO",
+				"type": "String"
+			},
+			{
+				"name": "PVEBB",
+				"type": "String"
+			},
+			{
+				"name": "PFI10",
+				"type": "String"
+			},
+			{
+				"name": "PDTBB",
+				"type": "String"
+			},
+			{
+				"name": "PFLDS",
+				"type": "String"
+			},
+			{
+				"name": "PVEDS",
+				"type": "String"
+			},
+			{
+				"name": "PORMC",
+				"type": "String"
+			},
+			{
+				"name": "PMNP2",
+				"type": "String"
+			},
+			{
+				"name": "PMLVP2",
+				"type": "String"
+			},
+			{
+				"name": "PCENTR",
+				"type": "String"
+			},
+			{
+				"name": "PDSTS",
+				"type": "String"
+			},
+			{
+				"name": "PCNTRY",
+				"type": "String"
+			},
+			{
+				"name": "PCCODE",
+				"type": "String"
+			},
+			{
+				"name": "PLAYONO",
+				"type": "String"
+			},
+			{
+				"name": "PPRICAL",
+				"type": "String"
+			},
+			{
+				"name": "PSNDORD",
+				"type": "String"
+			},
+			{
+				"name": "PPRIMIN",
+				"type": "String"
+			},
+			{
+				"name": "PPRIMAX",
+				"type": "String"
+			},
+			{
+				"name": "PHEADER",
+				"type": "String"
+			},
+			{
+				"name": "PFN60",
+				"type": "String"
+			},
+			{
+				"name": "PTRG",
+				"type": "String"
+			},
+			{
+				"name": "PTDMS",
+				"type": "String"
+			},
+			{
+				"name": "PFLCP",
+				"type": "String"
+			},
+			{
+				"name": "PBBCODE",
+				"type": "String"
+			},
+			{
+				"name": "PRIMD32",
+				"type": "String"
+			},
+			{
+				"name": "PCMPC",
+				"type": "String"
+			},
+			{
+				"name": "PCUR",
+				"type": "String"
+			},
+			{
+				"name": "PWHLPA",
+				"type": "String"
+			},
+			{
+				"name": "PDLNOJDE",
+				"type": "String"
+			},
+			{
+				"name": "BMSUGO",
+				"type": "String"
+			},
+			{
+				"name": "BTIMZN",
+				"type": "String"
+			},
+			{
+				"name": "PISFL",
+				"type": "String"
+			},
+			{
+				"name": "PDSSM",
+				"type": "String"
+			},
+			{
+				"name": "PVVBC",
+				"type": "String"
+			},
+			{
+				"name": "PSORG",
+				"type": "String"
+			},
+			{
+				"name": "PPARMA",
+				"type": "String"
+			},
+			{
+				"name": "PLANGISO",
+				"type": "String"
+			},
+			{
+				"name": "PSIGN",
+				"type": "String"
+			},
+			{
+				"name": "PPCAT",
+				"type": "String"
+			},
+			{
+				"name": "PVESE",
+				"type": "String"
+			},
+			{
+				"name": "PLIFT",
+				"type": "String"
+			},
+			{
+				"name": "PFILL1",
+				"type": "String"
+			},
+			{
+				"name": "PFILL2",
+				"type": "String"
+			},
+			{
+				"name": "PFILL3",
+				"type": "String"
+			},
+			{
+				"name": "PFILL4",
+				"type": "String"
+			}
+		]
 	}
 }
