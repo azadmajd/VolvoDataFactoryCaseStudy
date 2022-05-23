@@ -13,7 +13,7 @@
 				"fileName": "R3F015.csv",
 				"container": "newcontainer"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": ";",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
