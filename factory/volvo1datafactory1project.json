@@ -1,0 +1,9 @@
+{
+	"name": "volvo1datafactory1project",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1a438fd9-eae5-4dbf-8ff1-a436292f582b",
+		"tenantId": "9466b65c-f0a6-4622-82ef-8af1cacfc065"
+	}
+}
