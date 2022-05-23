@@ -1,0 +1,26 @@
+{
+	"name": "SE_SAMPLE_DATA",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ABS3F015",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "SE_Sample_Data.csv",
+				"container": "newcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"type": "String"
+			}
+		]
+	}
+}

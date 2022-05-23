@@ -1,0 +1,40 @@
+{
+	"name": "dataflow1",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "3F015",
+						"type": "DatasetReference"
+					},
+					"name": "source1"
+				},
+				{
+					"dataset": {
+						"referenceName": "SE_SAMPLE_DATA",
+						"type": "DatasetReference"
+					},
+					"name": "source2"
+				}
+			],
+			"sinks": [],
+			"transformations": [],
+			"scriptLines": [
+				"source(output(",
+				"          {0;Library;PDLNO;PNAME;PADR1;PADR2;PADR3;PPCDE;PTELE;PATT;PLANG;PCDRG;PCDDT;PFLRP;PCDOM;PDLNM;PCDMB;PFLMC;PCDPG;PVECA;PVEPE;PVEFW;PVEHF;PVEFS;PVEHS;PVEBC;PVENP;PLLOV;PHLOV;PLLCV;PLLCL;PHLOD;PLTIA;PHRRS;PLRRS;PHRRO;PLRRO;PCORP;POLWD;PPML1;PPML2;PLITS;PMDMO;PFN40;PFN41;PFN42;PFN50;PFN70;PFN71;PFN80;PFN81;PFN82;PFN90;PFL10;PFL20;PFL21;PFLST;PFLIMP;PNCER;PNCCT;PNCPU;PNCMO;PNRP1;PNRP2;PNRP3;PCO1;PCO2;PCO3;PCDDS;PCREF;PCREP;PPP1;PEP1;PPP2;PEP2;PPP3;PEP3;PPP4;PEP4;PPP5;PEP5;PPP6;PEP6;PPP7;PEP7;PPP8;PEP8;PPP9;PEP9;PPP10;PEP10;PPP11;PEP11;PPP12;PEP12;PPP13;PEP13;PDTLP;PCDKP;PDTLU;PDTLC;PCMCD;PDTPR;PFLNF;PSEAIR;PLPA;PNPF;PRFI;PCDPU;PFLSD;PSERD;PSERD1;PSERD2;PSERD3;PSERD4;PSERD5;PSERD6;PSERD7;PSERD8;PSERD9;PEURO;PVEBB;PFI10;PDTBB;PFLDS;PVEDS;PORMC;PMNP2;PMLVP2;PCENTR;PDSTS;PCNTRY;PCCODE;PLAYONO;PPRICAL;PSNDORD;PPRIMIN;PPRIMAX;PHEADER;PFN60;PTRG;PTDMS;PFLCP;PBBCODE;PRIMD32;PCMPC;PCUR;PWHLPA;PDLNOJDE;BMSUGO;BTIMZN;PISFL;PDSSM;PVVBC;PSORG;PPARMA;PLANGISO;PSIGN;PPCAT;PVESE;PLIFT;PFILL1;PFILL2;PFILL3;PFILL4} as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> source1",
+				"source(output(",
+				"          Column_1 as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> source2"
+			]
+		}
+	}
+}
