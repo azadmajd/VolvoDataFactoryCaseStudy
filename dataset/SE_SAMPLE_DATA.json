@@ -20,6 +20,831 @@
 		},
 		"schema": [
 			{
+				"name": "BDLNO",
+				"type": "String"
+			},
+			{
+				"name": "BPPRF",
+				"type": "String"
+			},
+			{
+				"name": "BPRTN",
+				"type": "String"
+			},
+			{
+				"name": "BPRTC",
+				"type": "String"
+			},
+			{
+				"name": "BSUGR",
+				"type": "String"
+			},
+			{
+				"name": "BSTBA",
+				"type": "String"
+			},
+			{
+				"name": "BEPSB",
+				"type": "String"
+			},
+			{
+				"name": "BFLES",
+				"type": "String"
+			},
+			{
+				"name": "BQORD",
+				"type": "String"
+			},
+			{
+				"name": "BQBO",
+				"type": "String"
+			},
+			{
+				"name": "BQFC",
+				"type": "String"
+			},
+			{
+				"name": "BMFAC",
+				"type": "String"
+			},
+			{
+				"name": "BFFCO",
+				"type": "String"
+			},
+			{
+				"name": "BCDTR",
+				"type": "String"
+			},
+			{
+				"name": "BFOSE",
+				"type": "String"
+			},
+			{
+				"name": "BDSI1",
+				"type": "String"
+			},
+			{
+				"name": "BDSI2",
+				"type": "String"
+			},
+			{
+				"name": "BCLPR",
+				"type": "String"
+			},
+			{
+				"name": "BCLFR",
+				"type": "String"
+			},
+			{
+				"name": "BLTIM",
+				"type": "String"
+			},
+			{
+				"name": "BOPP",
+				"type": "String"
+			},
+			{
+				"name": "BFLBO",
+				"type": "String"
+			},
+			{
+				"name": "BPQP",
+				"type": "String"
+			},
+			{
+				"name": "BSVQP",
+				"type": "String"
+			},
+			{
+				"name": "BRPED",
+				"type": "String"
+			},
+			{
+				"name": "BRPNG",
+				"type": "String"
+			},
+			{
+				"name": "BCDPU",
+				"type": "String"
+			},
+			{
+				"name": "BCDPL",
+				"type": "String"
+			},
+			{
+				"name": "BCDMO",
+				"type": "String"
+			},
+			{
+				"name": "BCDDE",
+				"type": "String"
+			},
+			{
+				"name": "BFLUN",
+				"type": "String"
+			},
+			{
+				"name": "BINF1",
+				"type": "String"
+			},
+			{
+				"name": "BINF2",
+				"type": "String"
+			},
+			{
+				"name": "BNPYD",
+				"type": "String"
+			},
+			{
+				"name": "BNPPY",
+				"type": "String"
+			},
+			{
+				"name": "BNPYD2",
+				"type": "String"
+			},
+			{
+				"name": "BNPPY2",
+				"type": "String"
+			},
+			{
+				"name": "BNPP1",
+				"type": "String"
+			},
+			{
+				"name": "BNP0",
+				"type": "String"
+			},
+			{
+				"name": "BNP1",
+				"type": "String"
+			},
+			{
+				"name": "BNP2",
+				"type": "String"
+			},
+			{
+				"name": "BNP3",
+				"type": "String"
+			},
+			{
+				"name": "BNP4",
+				"type": "String"
+			},
+			{
+				"name": "BNP5",
+				"type": "String"
+			},
+			{
+				"name": "BNP6",
+				"type": "String"
+			},
+			{
+				"name": "BNP7",
+				"type": "String"
+			},
+			{
+				"name": "BNP8",
+				"type": "String"
+			},
+			{
+				"name": "BNP9",
+				"type": "String"
+			},
+			{
+				"name": "BNP10",
+				"type": "String"
+			},
+			{
+				"name": "BNP11",
+				"type": "String"
+			},
+			{
+				"name": "BNP12",
+				"type": "String"
+			},
+			{
+				"name": "BNP13",
+				"type": "String"
+			},
+			{
+				"name": "BBINN",
+				"type": "String"
+			},
+			{
+				"name": "BBBCE",
+				"type": "String"
+			},
+			{
+				"name": "BQBBD",
+				"type": "String"
+			},
+			{
+				"name": "BQBBP",
+				"type": "String"
+			},
+			{
+				"name": "BQSYD",
+				"type": "String"
+			},
+			{
+				"name": "BQSLY",
+				"type": "String"
+			},
+			{
+				"name": "BQSYB",
+				"type": "String"
+			},
+			{
+				"name": "BQSP1",
+				"type": "String"
+			},
+			{
+				"name": "BQS0",
+				"type": "String"
+			},
+			{
+				"name": "BQS1",
+				"type": "String"
+			},
+			{
+				"name": "BQS2",
+				"type": "String"
+			},
+			{
+				"name": "BQS3",
+				"type": "String"
+			},
+			{
+				"name": "BQS4",
+				"type": "String"
+			},
+			{
+				"name": "BQS5",
+				"type": "String"
+			},
+			{
+				"name": "BQS6",
+				"type": "String"
+			},
+			{
+				"name": "BQS7",
+				"type": "String"
+			},
+			{
+				"name": "BQS8",
+				"type": "String"
+			},
+			{
+				"name": "BQS9",
+				"type": "String"
+			},
+			{
+				"name": "BQS10",
+				"type": "String"
+			},
+			{
+				"name": "BQS11",
+				"type": "String"
+			},
+			{
+				"name": "BQS12",
+				"type": "String"
+			},
+			{
+				"name": "BQS13",
+				"type": "String"
+			},
+			{
+				"name": "BRAAY",
+				"type": "String"
+			},
+			{
+				"name": "BRAAL",
+				"type": "String"
+			},
+			{
+				"name": "BRASY",
+				"type": "String"
+			},
+			{
+				"name": "BRASL",
+				"type": "String"
+			},
+			{
+				"name": "BRANY",
+				"type": "String"
+			},
+			{
+				"name": "BRANL",
+				"type": "String"
+			},
+			{
+				"name": "BRMSY",
+				"type": "String"
+			},
+			{
+				"name": "BRMSL",
+				"type": "String"
+			},
+			{
+				"name": "BRMNY",
+				"type": "String"
+			},
+			{
+				"name": "BRMNL",
+				"type": "String"
+			},
+			{
+				"name": "BPRIO",
+				"type": "String"
+			},
+			{
+				"name": "BPRIA",
+				"type": "String"
+			},
+			{
+				"name": "BEPPA",
+				"type": "String"
+			},
+			{
+				"name": "BPRIS",
+				"type": "String"
+			},
+			{
+				"name": "BDTCR",
+				"type": "String"
+			},
+			{
+				"name": "BDTFC",
+				"type": "String"
+			},
+			{
+				"name": "BDTLR",
+				"type": "String"
+			},
+			{
+				"name": "BDTBS",
+				"type": "String"
+			},
+			{
+				"name": "BDTLS",
+				"type": "String"
+			},
+			{
+				"name": "BDTSC",
+				"type": "String"
+			},
+			{
+				"name": "BESS2",
+				"type": "String"
+			},
+			{
+				"name": "BESS3",
+				"type": "String"
+			},
+			{
+				"name": "BESS4",
+				"type": "String"
+			},
+			{
+				"name": "BESS5",
+				"type": "String"
+			},
+			{
+				"name": "BNBOC",
+				"type": "String"
+			},
+			{
+				"name": "BPCTXT",
+				"type": "String"
+			},
+			{
+				"name": "BDTBB",
+				"type": "String"
+			},
+			{
+				"name": "BHTST",
+				"type": "String"
+			},
+			{
+				"name": "BOVST",
+				"type": "String"
+			},
+			{
+				"name": "BDEST",
+				"type": "String"
+			},
+			{
+				"name": "BNGSI",
+				"type": "String"
+			},
+			{
+				"name": "BUNFC",
+				"type": "String"
+			},
+			{
+				"name": "BINCD",
+				"type": "String"
+			},
+			{
+				"name": "BSTCD",
+				"type": "String"
+			},
+			{
+				"name": "BQTRT",
+				"type": "String"
+			},
+			{
+				"name": "BSDLN",
+				"type": "String"
+			},
+			{
+				"name": "BNAOL",
+				"type": "String"
+			},
+			{
+				"name": "BNMOL",
+				"type": "String"
+			},
+			{
+				"name": "BNDL",
+				"type": "String"
+			},
+			{
+				"name": "BCMPC",
+				"type": "String"
+			},
+			{
+				"name": "BDSTS",
+				"type": "String"
+			},
+			{
+				"name": "BCDRG",
+				"type": "String"
+			},
+			{
+				"name": "BPLOC",
+				"type": "String"
+			},
+			{
+				"name": "BPLMA",
+				"type": "String"
+			},
+			{
+				"name": "BSBLC",
+				"type": "String"
+			},
+			{
+				"name": "BCODE1",
+				"type": "String"
+			},
+			{
+				"name": "BCODE2",
+				"type": "String"
+			},
+			{
+				"name": "BCODE3",
+				"type": "String"
+			},
+			{
+				"name": "BCODE4",
+				"type": "String"
+			},
+			{
+				"name": "BCODE5",
+				"type": "String"
+			},
+			{
+				"name": "BFFCSD",
+				"type": "String"
+			},
+			{
+				"name": "BFFCED",
+				"type": "String"
+			},
+			{
+				"name": "BWESEA",
+				"type": "String"
+			},
+			{
+				"name": "BVOSEA",
+				"type": "String"
+			},
+			{
+				"name": "BFRPRI",
+				"type": "String"
+			},
+			{
+				"name": "BWHRH",
+				"type": "String"
+			},
+			{
+				"name": "BAQFC",
+				"type": "String"
+			},
+			{
+				"name": "BASB",
+				"type": "String"
+			},
+			{
+				"name": "BQBP",
+				"type": "String"
+			},
+			{
+				"name": "BQFCP1",
+				"type": "String"
+			},
+			{
+				"name": "BQFCP2",
+				"type": "String"
+			},
+			{
+				"name": "BQFCP3",
+				"type": "String"
+			},
+			{
+				"name": "BQFCP4",
+				"type": "String"
+			},
+			{
+				"name": "BQFCP5",
+				"type": "String"
+			},
+			{
+				"name": "BQFCP6",
+				"type": "String"
+			},
+			{
+				"name": "BQFCP7",
+				"type": "String"
+			},
+			{
+				"name": "BQFCP8",
+				"type": "String"
+			},
+			{
+				"name": "BQFCP9",
+				"type": "String"
+			},
+			{
+				"name": "BQFCP10",
+				"type": "String"
+			},
+			{
+				"name": "BQFCP11",
+				"type": "String"
+			},
+			{
+				"name": "BQFC1",
+				"type": "String"
+			},
+			{
+				"name": "BQFC2",
+				"type": "String"
+			},
+			{
+				"name": "BQFC3",
+				"type": "String"
+			},
+			{
+				"name": "BQFC4",
+				"type": "String"
+			},
+			{
+				"name": "BQFC5",
+				"type": "String"
+			},
+			{
+				"name": "BQFC6",
+				"type": "String"
+			},
+			{
+				"name": "BQFC7",
+				"type": "String"
+			},
+			{
+				"name": "BQFC8",
+				"type": "String"
+			},
+			{
+				"name": "BQFC9",
+				"type": "String"
+			},
+			{
+				"name": "BQFC10",
+				"type": "String"
+			},
+			{
+				"name": "BQFC11",
+				"type": "String"
+			},
+			{
+				"name": "BQFC12",
+				"type": "String"
+			},
+			{
+				"name": "BFCMD0",
+				"type": "String"
+			},
+			{
+				"name": "BFCMD1",
+				"type": "String"
+			},
+			{
+				"name": "BFCMD2",
+				"type": "String"
+			},
+			{
+				"name": "BFCMD3",
+				"type": "String"
+			},
+			{
+				"name": "BFCMD4",
+				"type": "String"
+			},
+			{
+				"name": "BFCMD5",
+				"type": "String"
+			},
+			{
+				"name": "BFCMD6",
+				"type": "String"
+			},
+			{
+				"name": "BFCMD7",
+				"type": "String"
+			},
+			{
+				"name": "BFCMD8",
+				"type": "String"
+			},
+			{
+				"name": "BFCMD9",
+				"type": "String"
+			},
+			{
+				"name": "BFCMD10",
+				"type": "String"
+			},
+			{
+				"name": "BFCMD11",
+				"type": "String"
+			},
+			{
+				"name": "BFCMD12",
+				"type": "String"
+			},
+			{
+				"name": "BTRSL",
+				"type": "String"
+			},
+			{
+				"name": "BSCVR",
+				"type": "String"
+			},
+			{
+				"name": "BTCVR",
+				"type": "String"
+			},
+			{
+				"name": "BMAD",
+				"type": "String"
+			},
+			{
+				"name": "BMD",
+				"type": "String"
+			},
+			{
+				"name": "BLKMD",
+				"type": "String"
+			},
+			{
+				"name": "BDTLM",
+				"type": "String"
+			},
+			{
+				"name": "BNPC",
+				"type": "String"
+			},
+			{
+				"name": "BFMFL",
+				"type": "String"
+			},
+			{
+				"name": "BDTIA",
+				"type": "String"
+			},
+			{
+				"name": "BDTPA",
+				"type": "String"
+			},
+			{
+				"name": "BFCTMP",
+				"type": "String"
+			},
+			{
+				"name": "BISFL",
+				"type": "String"
+			},
+			{
+				"name": "BHSNP",
+				"type": "String"
+			},
+			{
+				"name": "BBVP0",
+				"type": "String"
+			},
+			{
+				"name": "BBVP1",
+				"type": "String"
+			},
+			{
+				"name": "BTVP0",
+				"type": "String"
+			},
+			{
+				"name": "BTVP1",
+				"type": "String"
+			},
+			{
+				"name": "BSVP0",
+				"type": "String"
+			},
+			{
+				"name": "BSVP1",
+				"type": "String"
+			},
+			{
+				"name": "BSVP2",
+				"type": "String"
+			},
+			{
+				"name": "BSVP3",
+				"type": "String"
+			},
+			{
+				"name": "BSVP4",
+				"type": "String"
+			},
+			{
+				"name": "BSVP5",
+				"type": "String"
+			},
+			{
+				"name": "BSVP6",
+				"type": "String"
+			},
+			{
+				"name": "BSVP7",
+				"type": "String"
+			},
+			{
+				"name": "BSVP8",
+				"type": "String"
+			},
+			{
+				"name": "BSVP9",
+				"type": "String"
+			},
+			{
+				"name": "BSVP10",
+				"type": "String"
+			},
+			{
+				"name": "BSVP11",
+				"type": "String"
+			},
+			{
+				"name": "BSVP12",
+				"type": "String"
+			},
+			{
+				"name": "BQPAL",
+				"type": "String"
+			},
+			{
+				"name": "BQMIN",
+				"type": "String"
+			},
+			{
+				"name": "BDTLC",
+				"type": "String"
+			},
+			{
+				"name": "BDTLO",
+				"type": "String"
+			},
+			{
+				"name": "BDTSE",
+				"type": "String"
+			},
+			{
+				"name": "BFIMD",
+				"type": "String"
+			},
+			{
+				"name": "Library",
 				"type": "String"
 			}
 		]

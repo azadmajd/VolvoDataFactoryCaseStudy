@@ -20,7 +20,11 @@
 		},
 		"schema": [
 			{
-				"name": "PCUR|Currency Rate",
+				"name": "PCUR",
+				"type": "String"
+			},
+			{
+				"name": "Currency Rate",
 				"type": "String"
 			}
 		]
