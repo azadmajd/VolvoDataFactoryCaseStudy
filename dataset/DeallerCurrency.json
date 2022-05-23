@@ -1,5 +1,5 @@
 {
-	"name": "SE_SAMPLE_DATA",
+	"name": "DeallerCurrency",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ABS3F015",
@@ -10,16 +10,17 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "SE_Sample_Data.csv",
+				"fileName": "DealerCurrency.csv",
 				"container": "newcontainer"
 			},
-			"columnDelimiter": ";",
+			"columnDelimiter": ",",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
 		"schema": [
 			{
+				"name": "PCUR|Currency Rate",
 				"type": "String"
 			}
 		]
