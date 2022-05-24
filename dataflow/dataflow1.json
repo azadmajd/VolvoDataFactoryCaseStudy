@@ -423,8 +423,8 @@
 				"     validateSchema: false,",
 				"     ignoreNoFilesFound: false) ~> sourceDeallerCurrency",
 				"source3F015 select(mapColumn(",
-				"          each(match(/* All input columns */ true()),",
-				"               /* Input name */ $$ = $$)",
+				"          each(match(true())),",
+				"          DealerCode = PPCDE",
 				"     ),",
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: true) ~> Prepare3F015"
