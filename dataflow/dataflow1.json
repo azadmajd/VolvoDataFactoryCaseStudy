@@ -30,6 +30,15 @@
 			"transformations": [
 				{
 					"name": "Prepare3F015"
+				},
+				{
+					"name": "PrepareSESampleData"
+				},
+				{
+					"name": "join1"
+				},
+				{
+					"name": "unpivot1"
 				}
 			],
 			"scriptLines": [
@@ -423,11 +432,24 @@
 				"     validateSchema: false,",
 				"     ignoreNoFilesFound: false) ~> sourceDeallerCurrency",
 				"source3F015 select(mapColumn(",
-				"          each(match(true())),",
 				"          DealerCode = PPCDE",
 				"     ),",
 				"     skipDuplicateMapInputs: true,",
-				"     skipDuplicateMapOutputs: true) ~> Prepare3F015"
+				"     skipDuplicateMapOutputs: true) ~> Prepare3F015",
+				"sourceSeSampleDATA select(mapColumn(",
+				"          InfluenceOnServiceIndex = BNGSI,",
+				"          Dealer = BDLNO",
+				"     ),",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true) ~> PrepareSESampleData",
+				"Prepare3F015, PrepareSESampleData join(DealerCode == Dealer,",
+				"     joinType:'inner',",
+				"     broadcast: 'auto')~> join1",
+				"join1 unpivot(output(",
+				"          ",
+				"     ),",
+				"     lateral: true,",
+				"     ignoreNullPivots: false) ~> unpivot1"
 			]
 		}
 	}
